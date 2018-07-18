@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        {% if style==dark %}
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+                  <button type="button" class="btn btn-out-dark">Light</button>
+          </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li>
+              <button type="button" class="btn btn-outline-light">Dark</button>
+            </li>
+          </ul>
+        
+        {% else %}
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+                  <button type="button" class="btn btn-out-dark" name="light-theme">Light</button>
+          </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                        <div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+                          <button type="button" class="btn btn-dark" name="dark-theme">Dark</button>
+                    </li>
+        {% endif %}
+        <!--          
+        </ul>-->
+    </div>
+  </nav>

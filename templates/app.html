@@ -1,0 +1,23 @@
+{% include "includes/layout.html" %}
+{% block style %}
+{% if session["theme"]=="light" %}
+    <style>
+        hr{
+            background-color: black;
+        }
+    
+    </style>
+{% else %}
+    <style>
+        hr{
+            background-color: white;
+        }
+        body{
+            color: white;
+            background-color:#212529;
+        }
+
+    </style>
+{% endif %}
+
+{% endblock style %}
