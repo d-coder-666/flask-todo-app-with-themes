@@ -14,7 +14,7 @@
 
 ## Don't delete or move to any path todo.db 
 
-##  Screenshoos 
+##  Screenshots 
 
 
 ![THEME](https://github.com/d-coder-666/flask-todo-app-with-themes/blob/master/2018-07-19%20(1).png)
