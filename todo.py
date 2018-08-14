@@ -3,12 +3,16 @@ from datetime import datetime
 from flask_sqlalchemy import SQLAlchemy
 import os
 current_path=os.getcwd()
+#IF You use Windows uncomment theese and delete 15-th line
+"""
 path_for_db=""
 for i in current_path:
     if i=='\\':
         i="/"
     path_for_db+=i
 path_for_db="sqlite:////"+path_for_db[3:]+"/todo.db"
+"""
+path_for_db="sqlite:////"+current_path+"/todo.db"
 app=Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"]=path_for_db
 db=SQLAlchemy(app)
