@@ -13,6 +13,7 @@
 # Warning!
 
 ## Don't delete or move to any path todo.db 
+#IF You use Windows uncomment comments in todo.py and delete 15-th line
 
 ##  Screenshots 
 
